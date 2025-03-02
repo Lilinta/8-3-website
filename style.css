@@ -6,10 +6,6 @@
 
 body {
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     font-family: sans-serif;
     background-color: powderblue;
 }
@@ -17,10 +13,12 @@ body {
 /* Book */
 .book {
     position: relative;
-    width: 350px;
-    height: 500px;
+    width: 56vh;
+    height: 80vh;
+    margin: auto;
+    margin-top: 10vh;
     transition: transform 0.5s;
-}
+} 
 
 .paper {
     position: absolute;
@@ -74,11 +72,18 @@ body {
 }
 
 /* Controller Buttons */
+.button-container {
+    width: 56vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 button {
     border: none;
     background-color: transparent;
     cursor: pointer;
-    margin: 10px;
+    margin-top: 10px;
     transition: transform 0.5s;
 }
 
