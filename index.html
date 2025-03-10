@@ -1,66 +1,94 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book</title>
-    <link rel="stylesheet" href="./style.css">
-    <script src="./main.js" defer></script>
-    <script src="https://kit.fontawesome.com/607a3855b3.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <!-- Book -->
-    <div id="book" class="book">
-        <!-- Paper 1 -->
-        <div id="p1" class="paper">
-            <div class="front">
-                <div id="f1" class="front-content">
-                    <h1>Front 1</h1>
-                </div>
+<html lang="en" class="">
+  <head>
+    <meta charset="UTF-8" />
+    <title>8-3-2025 AK-46</title>
+
+    <meta name="robots" content="noindex" />
+
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://myclassak46.wdfiles.com/local--files/start/logo-lop.jpg"
+    />
+  
+    <link rel="canonical" href="https://codepen.io/pen/?editors=1111" />
+
+    <style id="INLINE_PEN_STYLESHEET_ID">
+      @import url(style.css);
+    </style>
+
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+    <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeConsoleRunner-6d8bf8b4b479137260842506acbb12717dace0823c023e08b96360e60b0840d9.js"></script>
+    <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRefreshCSS-44fe83e49b63affec96918c9af88c0d80b209a862cf87ac46bc933074b8c557d.js"></script>
+    <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRuntimeErrors-4f205f2c14e769b448bcf477de2938c681660d5038bc464e3700256713ebe261.js"></script>
+    <style id="MTU4MDAwMDAxOTk5OTkyMA=="></style>
+    <script
+      type="text/javascript"
+      charset="utf-8"
+      defer=""
+      async=""
+      src="chrome-extension://fpojggnigocndnihknkbacohbpgnkplc/inject-scripts/patch-xhr.js"
+      data-params="{}"
+    ></script>
+    <style type="text/css"></style>
+    <script
+      type="text/javascript"
+      charset="utf-8"
+      defer=""
+      async=""
+      src="chrome-extension://fpojggnigocndnihknkbacohbpgnkplc/inject-scripts/set-global.js"
+      data-params='{"name":"__stopWatching","value":true}'
+    ></script>
+    <script
+      type="text/javascript"
+      charset="utf-8"
+      defer=""
+      async=""
+      src="chrome-extension://fpojggnigocndnihknkbacohbpgnkplc/inject-scripts/set-global.js"
+      data-params='{"name":"__jsons","value":[]}'
+    ></script>
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <div id="happy-valentines">
+        <div class="valentines-day-card">
+            <div class="clouds"></div>
+            <div class="hearts">
+            <div class="heartOne">
+                <div class="left-side"></div>
+                <div class="right-side"></div>
             </div>
-            <div class="back">
-                <div id="b1" class="back-content">
-                    <h1>Back 1</h1>
-                </div>
+            <div class="heartTwo">
+                <div class="left-side"></div>
+                <div class="right-side"></div>
             </div>
-        </div>
-        <!-- Paper 2 -->
-        <div id="p2" class="paper">
-            <div class="front">
-                <div id="f2" class="front-content">
-                    <h1>Front 2</h1>
-                </div>
+            <div class="heartThree">
+                <div class="left-side"></div>
+                <div class="right-side"></div>
             </div>
-            <div class="back">
-                <div id="b2" class="back-content">
-                    <h1>Back 2</h1>
-                </div>
+            <div class="heartFour">
+                <div class="left-side"></div>
+                <div class="right-side"></div>
             </div>
-        </div>
-        <!-- Paper 3 -->
-        <div id="p3" class="paper">
-            <div class="front">
-                <div id="f3" class="front-content">
-                    <h1>Front 3</h1>
-                </div>
+            <div class="heartFive">
+                <div class="left-side"></div>
+                <div class="right-side"></div>
             </div>
-            <div class="back">
-                <div id="b3" class="back-content">
-                    <h1>Back 3</h1>
-                </div>
+            </div>
+            <div id="text">
+                Happy Women's Day<br />Day!
             </div>
         </div>
     </div>
-    <!-- Previous Button -->
+    <p id="hover">Nhấn mũi tên để thay đổi nội dung</p>
     <div class="button-container">
-        <button id="prev-btn">
-            <i class="fas fa-arrow-circle-left"></i>
-        </button>
-        <!-- Next Button -->
-        <button id="next-btn">
-            <i class="fas fa-arrow-circle-right"></i>
-        </button>
-    </div>
-</body>
+      <button id="prev-btn">
+          <i class="fas fa-arrow-circle-left">&lt</i>
+      </button>
+      <!-- Next Button -->
+      <button id="next-btn">
+          <i class="fas fa-arrow-circle-right">&gt</i>
+      </button>
+  </body>
 </html>
